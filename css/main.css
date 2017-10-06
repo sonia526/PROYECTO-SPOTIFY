@@ -86,6 +86,7 @@ body {
   text-align: center;
   margin: 0;
   position: relative;/*agreagado recien*/
+  overflow: hidden;
 }
 .bg-white {
   background-color: #fff;
@@ -199,7 +200,7 @@ h3 {
   height: 730px;
   padding: 80px 22px 0;
   margin-bottom: 30px;
-  background: url('../img/iphone-klein-purple.png') no-repeat;
+  background: url(../img/phoneblanco.png) no-repeat;
   background-size: cover;
 }
 
@@ -328,13 +329,13 @@ p.legal a {
 p.legal a:hover {
   color: #42e3c6;
 }
-
-.nexus {
+/*7777777777777777*/
+div.nexus {
+  margin-left:-150px;
   width: 458px;
   height: 873px;
   padding: 60px 24px 0 18px;
-  background: url(../assets/img/phone1.png) no-repeat;
-  background-size:cover;
+  background: url(../assets/img/phone1.png) no-repeat;background-size: 100%;
   margin-bottom: -50%;
 }
 
@@ -434,7 +435,6 @@ p.legal a:hover {
 .flag-icon-us {
     background-image: url('https://sp-bootstrap.global.ssl.fastly.net/8.0.0/images/flags/us.svg');
 }
-
 .flag-icon {
   background-position: 50%;
   background-repeat: no-repeat;
@@ -444,12 +444,10 @@ p.legal a:hover {
   height: 1em;
   width: 1.33333333em;
 }
-
 .market, .copyright {
   color: #919496;
   font-size: 12px;
 }
-
 a.market {
   color: #919496;
   text-decoration: none;
